@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'codigoMentor02';
+  titulo:any = 'titulo';
+
+  datos: any = {
+    nombre:'Diego',
+    apellido: 'Herrera',
+    edad: 18,
+    documento: '46413065146'
+  };
+
+  eventoBoton(){
+    console.log("event binding");
+  }
 }
